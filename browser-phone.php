@@ -2,11 +2,11 @@
 // @start snippet
 include 'Services/Twilio/Capability.php';
 
-$accountSid = 'ACxxxxxxxxxxxxxxx';
-$authToken  = 'xxxxxxxxxxxxxxxxx';
+$accountSid = 'AC414bd686c70f83396b7ca4ff61a53ccb';
+$authToken  = 'a24dad5c00afd5552243dc08011d7095';
 
 $token = new Services_Twilio_Capability($accountSid, $authToken);
-$token->allowClientOutgoing('APxxxxxxxxxxxxxxx');
+$token->allowClientOutgoing('APfdde63180e0eb116c443385423087d20');
 $token->allowClientIncoming("alice");
 // @end snippet
 ?>
